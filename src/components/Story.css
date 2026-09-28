@@ -1,0 +1,60 @@
+.story {
+  padding: 5rem;
+  background: #0d0d0d;
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+
+.story-label {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.3em;
+  color: #B76E79;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.story-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  color: #FFD700;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.story-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  color: #aaaaaa;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+  max-width: 550px;
+}
+
+.story-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  flex-shrink: 0;
+}
+
+.story-placeholder {
+  width: 350px;
+  height: 300px;
+  object-fit: cover;
+  background: #1a1a1a;
+  border: 1px solid #2a2a2a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+}
+
+.story-caption {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.85rem;
+  color: #555555;
+  font-style: italic;
+}

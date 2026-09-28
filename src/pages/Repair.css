@@ -1,0 +1,191 @@
+.repair-page {
+  padding: 3rem 5rem;
+  background: #0a0a0a;
+  min-height: 100vh;
+}
+
+.repair-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.repair-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  color: #FFD700;
+  margin-bottom: 0.5rem;
+}
+
+.repair-sub {
+  font-family: 'Inter', sans-serif;
+  color: #aaaaaa;
+  font-size: 1rem;
+  letter-spacing: 0.05em;
+}
+
+.repair-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 500px;
+  margin: 3rem auto 0;
+  padding: 2rem;
+  background: #1a1a1a;
+  border: 1px solid #FFD700;
+  border-radius: 12px;
+}
+
+.repair-form h2 {
+  font-family: 'Playfair Display', serif;
+  color: #FFD700;
+  margin-bottom: 8px;
+}
+
+.repair-form input,
+.repair-form textarea {
+  padding: 12px 16px;
+  background: #0a0a0a;
+  border: 1px solid #2a2a2a;
+  border-radius: 8px;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.repair-form input:focus,
+.repair-form textarea:focus {
+  border-color: #FFD700;
+}
+
+.repair-form textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+}
+
+.btn-back {
+  padding: 0.8rem 2rem;
+  background: transparent;
+  border: 1px solid #aaaaaa;
+  color: #aaaaaa;
+  border-radius: 8px;
+  font-family: 'Inter', sans-serif;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-back:hover {
+  border-color: white;
+  color: white;
+}
+
+.error {
+  color: #ff4d4d;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.service-card {
+  background: #111111;
+  border: 1px solid #2a2a2a;
+  padding: 2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.service-card:hover {
+  border-color: #FFD700;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.1);
+}
+
+.service-card.selected {
+  border-color: #FFD700;
+  background: #1a1500;
+}
+
+.service-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.service-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.3rem;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+.service-desc {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+  color: #aaaaaa;
+  margin-bottom: 0.8rem;
+}
+
+.service-price {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  color: #FFD700;
+  font-weight: 600;
+}
+
+.selected-badge {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: #FFD700;
+  color: #0a0a0a;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.3rem 0.8rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.repair-cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 3rem;
+  padding: 2rem;
+  border: 1px solid #2a2a2a;
+  max-width: 900px;
+  margin: 3rem auto 0;
+}
+
+.cta-text {
+  font-family: 'Inter', sans-serif;
+  color: #aaaaaa;
+}
+
+.cta-btn {
+  background: #FFD700;
+  border: none;
+  color: #0a0a0a;
+  padding: 0.8rem 2rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cta-btn:hover {
+  background: #B76E79;
+  color: #ffffff;
+}

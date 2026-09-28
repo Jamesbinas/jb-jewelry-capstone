@@ -1,0 +1,20 @@
+.shop-page,
+.cart-page,
+.checkout-page,
+.receipt-page,
+.orders-page,
+.login-page,
+.signup-page {
+  animation: pageFadeIn 0.4s ease forwards;
+}
+
+@keyframes pageFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

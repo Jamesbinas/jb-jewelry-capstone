@@ -1,0 +1,61 @@
+.repair-confirm-page {
+  min-height: 100vh;
+  background: #0a0a0a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.repair-confirm-card {
+  background: #1a1a1a;
+  border: 1px solid #FFD700;
+  border-radius: 12px;
+  padding: 48px;
+  max-width: 480px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.confirm-icon {
+  font-size: 3rem;
+}
+
+.repair-confirm-card h1 {
+  font-family: 'Playfair Display', serif;
+  color: #FFD700;
+  font-size: 2rem;
+}
+
+.repair-confirm-card p {
+  font-family: 'Inter', sans-serif;
+  color: #aaaaaa;
+  font-size: 0.95rem;
+}
+
+.confirm-note {
+  color: #B76E79 !important;
+  font-style: italic;
+}
+
+.repair-confirm-card button {
+  margin-top: 8px;
+  padding: 14px;
+  background: #FFD700;
+  color: #0a0a0a;
+  border: none;
+  border-radius: 8px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.repair-confirm-card button:hover {
+  background: #B76E79;
+  color: white;
+}

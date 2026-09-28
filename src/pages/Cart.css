@@ -1,0 +1,124 @@
+.cart-page {
+  min-height: 100vh;
+  background-color: #0a0a0a;
+  padding: 120px 40px 40px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cart-page h1 {
+  font-family: 'Playfair Display', serif;
+  color: #FFD700;
+  font-size: 2.5rem;
+  margin-bottom: 32px;
+}
+
+.cart-empty {
+  text-align: center;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  margin-top: 80px;
+}
+
+.cart-empty button {
+  margin-top: 16px;
+  padding: 12px 24px;
+  background: #FFD700;
+  color: #0a0a0a;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+}
+
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1a1a1a;
+  border: 1px solid #FFD700;
+  border-radius: 8px;
+  padding: 16px 20px;
+}
+
+.cart-item-info h3 {
+  font-family: 'Playfair Display', serif;
+  color: #FFD700;
+  margin-bottom: 4px;
+}
+
+.cart-item-info p {
+  font-family: 'Inter', sans-serif;
+  color: #aaaaaa;
+  font-size: 0.9rem;
+}
+
+.cart-item-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.cart-item-total {
+  font-family: 'Inter', sans-serif;
+  color: white;
+  font-weight: 700;
+}
+
+.cart-remove {
+  background: transparent;
+  border: 1px solid #B76E79;
+  color: #B76E79;
+  padding: 4px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.85rem;
+  transition: all 0.2s;
+}
+
+.cart-remove:hover {
+  background: #B76E79;
+  color: white;
+}
+
+.cart-summary {
+  border-top: 1px solid #333;
+  padding-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-summary h2 {
+  font-family: 'Playfair Display', serif;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.cart-checkout {
+  padding: 14px 32px;
+  background: #FFD700;
+  color: #0a0a0a;
+  border: none;
+  border-radius: 8px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.cart-checkout:hover {
+  background: #B76E79;
+  color: white;
+}

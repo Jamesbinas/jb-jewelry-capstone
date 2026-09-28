@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0a0a0a;
+  color: #ffffff;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.2rem 3rem;
+  background: #0a0a0a;
+  border-bottom: 1px solid #FFD700;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+  cursor: pointer;
+}
+
+.logo-jb {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #FFD700;
+}
+
+.logo-jewelry {
+  font-family: 'Playfair Display', serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.3em;
+  color: #B76E79;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2.5rem;
+  list-style: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.95rem;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.nav-links li:hover {
+  color: #FFD700;
+  transition: color 0.3s ease;
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: #FFD700;
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.btn-login {
+  background: transparent;
+  border: 1px solid #FFD700;
+  color: #FFD700;
+  padding: 0.5rem 1.2rem;
+  font-family: 'Inter', sans-serif;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-login:hover {
+  background: #B76E79;
+  color: #ffffff;
+}
+
+.theme-toggle {
+    font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.btn-signup {
+  background: #FFD700;
+  border: none;
+  color: #0a0a0a;
+  padding: 0.5rem 1.2rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-signup:hover {
+  background: #B76E79;
+  color: #ffffff;
+}
+
+.theme-toggle {
+  font-size: 1.2rem;
+  cursor: pointer;
+}

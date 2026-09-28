@@ -1,0 +1,84 @@
+.featured {
+  padding: 5rem;
+  background: #0a0a0a;
+}
+
+.featured-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  color: #FFD700;
+  text-align: center;
+  margin-bottom: 3rem;
+  letter-spacing: 0.05em;
+}
+
+.featured-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.product-card {
+  background: #111111;
+  border: 1px solid #2a2a2a;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.product-card:hover {
+  border-color: #FFD700;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.1);
+  transform: translateY(-4px);
+}
+
+.card-image {
+  width: 100%;
+  height: 200px;
+  background: #1a1a1a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+}
+
+.card-type {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.75rem;
+  color: #B76E79;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.card-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+.card-price {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.1rem;
+  color: #FFD700;
+  font-weight: 600;
+}
+
+.card-btn {
+  background: transparent;
+  border: 1px solid #FFD700;
+  color: #FFD700;
+  padding: 0.6rem;
+  font-family: 'Inter', sans-serif;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: auto;
+}
+
+.card-btn:hover {
+  background: #FFD700;
+  color: #0a0a0a;
+  font-weight: 600;
+}
